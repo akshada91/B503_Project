@@ -1,3 +1,6 @@
+/*Dynamic programming is an approach to derive optimal solution for solving the 01-knapsack problem. 
+In Dynamic Programming a complex problem is broken into collection of simpler sub problems. The sub problems are then solved. 
+*/
 import java.io.*;
 
 class KnapsackDP

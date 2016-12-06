@@ -1,3 +1,5 @@
+/*The value/ weight ratio is calculated to determine the items which has the highest capacity. The item with highest importance is selected
+ * This process is continued until the knapsack cannot be filled any further*/
 import java.io.*;
 
 public class KnapsackGreedy

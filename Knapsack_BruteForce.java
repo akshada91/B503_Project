@@ -1,3 +1,7 @@
+/*Brute force approach is a straightforward approach to solve a problem. If there are N items, there are 2N possible combinations for the items to be selected. An item can either be selected or not selected.
+In Brute force approach all 2n subsets are generated. The subsets whose sum exceed the knapsack weight are discarded. The subset whose total profit value is the maximum is selected from the remaining subsets.
+We iterate through all the subsets of N items and pick up the subset with allowed weight that maximizes the value of the knapsack.*/
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
